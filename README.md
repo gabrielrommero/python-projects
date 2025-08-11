@@ -59,3 +59,37 @@ Days hotter than the previous: [2, 5, 6, 8, 10, 11, 16, 18, 19, 21, 24, 25, 26, 
 Days with Bad Weather:  8
 Days with Average Weather:  0
 Days with Bad Weather:  1
+```
+
+# Patient Record Management
+This Python program manages patient health data including:
+
+Personal info (name, age, gender)
+
+Diagnoses, medications, allergies
+
+Blood pressure tracking and average calculations
+
+Appointment dates handling
+
+Medication addition/removal with allergy checks
+
+## How to Run
+```bash
+git clone https://github.com/gabrielrommero/python-projects.git
+cd python-projects
+python weather_analysis.py
+
+Example Output
+```
+Enter Patient ID or 'exit': P12345
+John Doe , 35 , Male
+Diagnosis:  Hypertension
+Medications:  2 ['Lisinopril', 'Hydrochlorothiazide']
+Allergies:  1 ['Penicillin']
+Average Blood Pressure:  135.5 , 89.75
+Patient's Blood Pressure is High.
+2022-05-20 00:00:00
+2023-11-15 00:00:00
+544 days, 0:00:00
+```

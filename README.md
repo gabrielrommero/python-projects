@@ -12,7 +12,9 @@ This Python program collects a student’s full name, three exam scores, and att
 Clone the repository:
 
    ```bash
-   git clone https://github.com/gabrielrommero/python-projects.git
+git clone https://github.com/gabrielrommero/python-projects.git
+cd python-projects
+python grade-calculator.py
 ```
 
 Example Output
@@ -42,7 +44,7 @@ This Python program generates simulated daily temperature and rainfall data for 
 ```bash
 git clone https://github.com/gabrielrommero/python-projects.git
 cd python-projects
-python weather_analysis.py
+python weather-analysis.py
 ```
 Example Output
 ```csharp
@@ -78,7 +80,7 @@ Medication addition/removal with allergy checks
 ```bash
 git clone https://github.com/gabrielrommero/python-projects.git
 cd python-projects
-python weather_analysis.py
+python doctor-interface.py
 
 Example Output
 ```
@@ -92,4 +94,5 @@ Patient's Blood Pressure is High.
 2022-05-20 00:00:00
 2023-11-15 00:00:00
 544 days, 0:00:00
+...
 ```
